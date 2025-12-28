@@ -103,6 +103,5 @@ def tic_tac_toe():
     play_again=input("Do you want to play again?(yes/no:)").lower()
     if play_again !="yes":
         print("Thank you for playing!")
-        break 
 if __name__=="__main__":
     tic_tac_toe()
